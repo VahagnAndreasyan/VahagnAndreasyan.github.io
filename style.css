@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    }
+    body{
+    font-family: "Times New Roman", Georgia, Serif;
+    }
+    .fixed{
+    position: fixed;
+    width: 100%;
+    height: 8vh;
+    background-color:#ffffff;
+    font-family: Georgia, serif;
+    border: 4px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+
+    }
+
+
+    .id{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        width: 100px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .id:hover{
+        background-color: rgb(212, 212, 212);
+        color: rgb(0, 0, 0);
+    }
+
+    .br{
+        color: rgb(0, 0, 0);
+        margin-right: 770px;
+    }
+
+
+.projectsA{
+    margin-right: 20px;
+}
+
+.aboutA{
+    margin-right: 20px;
+}
+
+.archetics{
+    background-image: url(./architect\ \(1\).jpg);
+    width: 100%;
+    height: 100vh;
+}
+
+.project{
+    width: 90%;
+    height: 100vh;
+    margin-top: 8rem;
+    
+    
+}
+
+.project h2{
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
+}
+
+.houses{
+    width: 100%;
+    height: 40rem;
+    margin-top: 3.5rem;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 60px;
+}
+
+
+
+.home{
+    width: 24%;
+    height: 19rem;
+}
+
+.home:hover{
+    opacity: 0.75;
+}
+
+.black{
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+    background-color: black;
+}
+
+.tun{
+    background-image: url(./tun.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.coren{
+    background-image: url(./coren.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.gisher{
+    background-image: url(./gisher.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.fab{
+    background-image: url(./fab.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hr2{
+    margin-top: 270px;  
+   
+}
+
+
+.abouth2{
+    position: relative;
+    top: 240px;
+    left: 30px;
+}
+
+.p1{
+    margin-top: 20px;
+}
+
+.mardikmec{
+    background-color: red;
+    width: 90%;
+    height: 300px;
+    margin-left: 70px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.mecdiv{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 400px;
+}
+
+.Johndoe{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    bottom: 210px;
+    left: 80px;
+    filter: grayscale();
+
+}
+
+.janedoe{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    bottom: 210px;
+    left: 150px;
+    filter: grayscale();
+}
+
+
+.mikeross{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 230px;
+    bottom: 212px;
+    filter: grayscale();
+}
+
+
+.danstar{
+width: 250px;
+height: 250px;
+position: relative;
+left: 308px;
+bottom: 212px;
+filter: grayscale();
+}
+
+.textarea{
+    background-color: rgb(245, 245, 245);
+    width: 250px;
+    height: 156px;
+    
+    
+}
+
+.textarea1{
+    position: relative;
+    bottom: 220px;
+    left: 80px;
+}
+
+.textarea2{
+    position: relative;
+    bottom: 375px;
+    left: 404px;
+}
+
+
+.textarea3{
+    position: relative;
+    bottom: 530px;
+    left: 738px;
+}
+
+
+.designers{
+    color: red;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 60px;
+}
+
+.gcik3{
+    background-color: red;
+    width: 60px;
+    height: 10px;
+    border-radius: 14vi;
+    position: relative;
+    bottom: 36px;
+    left: 3.8%;
+    
+}
+
+.p2{
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+.p3{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+
+.p4{
+    position: relative;
+    top: 15px;
+    font-size: 14px;
+    left: 5px;
+}
+
+.p5{
+    font-size: 19px;
+    position: relative;
+    left: 5px;
+}
+
+.p6{
+     font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 30px;
+    left: 5px;
+}
+
+.p7{
+    font-size: 14px;
+    position: relative;
+    top: 20px;
+    left: 5px;
+}
+
+.p8{
+    font-size: 19px;
+    position: relative;
+    left: 5px;
+}
+
+
+.p9{
+    font-size: 19px;
+    position: relative;
+    left: 5px;
+}
+
+
+.p10{
+    font-size: 14px;
+    position: relative;
+    top: 20px;
+    left: 5px;
+}
+.p11{
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 30px;
+    left: 5px;
+}
+
+
+.textarea4{
+    position: relative;
+    left: 1070px;
+    bottom: 684px;
+}
+
+button{
+    width: 250px;
+    height: 30px;
+    background-color: rgb(226, 226, 226);
+    border: none;
+    
+}
+
+.button1{
+   margin-top: 10px;
+}
+
+.button:hover{
+    background-color: rgb(138, 138, 138);
+}
+
+.button2{
+    margin-top: 29px;
+}
+
+.button3{
+    margin-top: 29px;
+}
+
+.button4{
+    margin-top: 29px;
+}
+
+
+.contacttext{
+    margin-top: 150px;
+    margin-left: 80px;
+}
+
+
+.hr3{
+    margin-top: 20px;
+    width: 85%;
+    margin-left: 80px;
+}
+
+
+.h31{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+
+input{
+    width: 1200px;
+    height: 34px;
+    margin-left: 60px;
+    margin-top: 5px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.inputs{
+    margin-top: 16px;
+    
+}
+
+
+
+.send{
+    background-color: black;
+    border: none;
+    width: 130px;
+    height: 36px;
+    color: white;
+    margin-left: 57px;
+    margin-top: 30px;
+}
+
+
+.send:hover{
+    background-color: rgb(192, 192, 192);
+}
+
+.map{
+    width: 92%;
+    height: 100vh;
+    margin-top: 50px;
+    margin-left: 55px;
+    
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 80px;
+}
+
+.w3{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+}
+
+.href{
+    color: white;
+    
+}
+
+
+.href:hover{
+    color: rgb(132, 255, 60);
+    
+}
